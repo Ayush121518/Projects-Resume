@@ -1,0 +1,22 @@
+{
+  "name": "fit-track",
+  "version": "1.0.0",
+  "description": "FitTrack — Full-Stack Fitness and Workout Tracking Platform (React, Node.js, Express, MongoDB, Mongoose, JWT, Recharts)",
+  "scripts": {
+    "server": "npm run dev --prefix server",
+    "client": "npm run dev --prefix client",
+    "dev": "npx concurrently -n \"SERVER,CLIENT\" -c \"magenta,cyan\" \"npm run server\" \"npm run client\"",
+    "build": "npm run build --prefix client"
+  },
+  "keywords": [
+    "fittrack",
+    "fitness",
+    "mern",
+    "recharts",
+    "workout-tracker",
+    "jwt",
+    "mongodb"
+  ],
+  "author": "Ayush Yadav",
+  "license": "MIT"
+}
